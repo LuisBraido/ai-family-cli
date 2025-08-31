@@ -49,6 +49,10 @@ cd ai-family-cli
 
 # Install in development mode
 pip install -e .
+
+# PyPI Project URL
+https://pypi.org/project/familycli/1.0.0/
+
 ```
 
 ### First Run
