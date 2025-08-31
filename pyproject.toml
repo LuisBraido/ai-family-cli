@@ -1,0 +1,48 @@
+[project.scripts]
+familycli = "src.main:main"
+[project]
+name = "familycli"
+version = "1.0.0"
+description = "A warm, child-safe AI family chat experience in your terminal"
+authors = [
+    { name = "AIMLDev726", email = "aistudentlearn4@gmail.com" }
+]
+license = "MPL-2.0"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["ai", "family", "chat", "cli", "children", "safe", "conversation"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Families",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Chat",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+homepage = "https://github.com/AIMLDev726/ai-family-cli"
+repository = "https://github.com/AIMLDev726/ai-family-cli"
+documentation = "https://github.com/AIMLDev726/ai-family-cli/blob/main/README.md"
+issues = "https://github.com/AIMLDev726/ai-family-cli/issues"
+
+[tool.setuptools]
+packages = ["src", "src.auth", "src.personas", "src.chat", "src.llm", "src.llm.providers", "src.database", "src.ui", "src.config"]
+package-dir = {"" = "."}
+
+[tool.setuptools.package-data]
+"src.config" = ["*.json"]
+
+
+
+[tool.ruff]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
