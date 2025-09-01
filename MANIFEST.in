@@ -1,13 +1,14 @@
 include README.md
+include CHANGELOG.md
 include LICENCE
 include CONTRIBUTING.md
 include requirements.txt
 include pyproject.toml
 include MANIFEST.in
 
-recursive-include src *.py
-recursive-include src *.json
-recursive-include src/config *.json
+recursive-include familycli *.py
+recursive-include familycli *.json
+recursive-include familycli/config *.json
 
 global-exclude __pycache__
 global-exclude *.py[co]
@@ -15,3 +16,6 @@ global-exclude *.db
 global-exclude *.sqlite
 global-exclude *.log
 global-exclude .DS_Store
+global-exclude .git*
+global-exclude .pytest_cache
+global-exclude *.egg-info

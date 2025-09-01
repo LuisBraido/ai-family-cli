@@ -23,6 +23,19 @@ FamilyCLI brings AI-powered family members to life in your command line. Chat wi
 
 ## ✨ Features
 
+### v1.1 New Features 🎉
+
+- 🧠 **Memory & Continuity** - Personas remember conversations and preferences across sessions
+- 🎭 **Rich Persona Templates** - Advanced personality traits, tones, knowledge domains, and quirks
+- 👨‍👩‍👧‍👦 **Family Tree View** - Visual family relationships and tree navigation
+- 📦 **Persona Packs** - Pre-built persona collections and community sharing
+- 🎭 **Scene Mode** - Immersive storytelling with multi-persona roleplay
+- 📊 **User Feedback Loop** - Rate responses and continuous improvement
+- 🔄 **Configuration Reload** - Update settings without restart
+- 🏗️ **Production Architecture** - Enhanced error handling and scalability
+
+### Core Features
+
 - 🏠 **6 Unique Family Members** - Each with distinct personalities and LLM providers
 - 💭 **Conversation Memory** - Personas remember and reference previous messages
 - 🛡️ **Child-Safe Responses** - Carefully engineered prompts for appropriate, caring interactions
@@ -62,7 +75,7 @@ https://pypi.org/project/familycli/1.0.0/
 familycli
 
 # Or if installed from source
-python -m src.main
+python -m familycli.main
 ```
 
 ### Setup API Keys
@@ -77,25 +90,33 @@ python -m src.main
 # Main command
 familycli                    # Start the family chat interface
 
+# New v1.1 Commands
+familycli tree              # Display family tree visualization
+familycli add-pack          # Install persona packs
+familycli scene             # Start immersive scene mode
+familycli feedback          # View feedback statistics
+familycli memory            # View persona memories
+familycli reload            # Reload configuration
+
 # Alternative (if installed from source)
-python -m src.main          # Direct module execution
+python -m familycli.main          # Direct module execution
 ```
 
 ### Usage
 1. Initialize the database:
    ```sh
-   python src/main.py
+   python -m familycli.main
    ```
 2. Register a user and login via CLI prompts.
 3. Create personas, start chat sessions, and interact with AI family members.
 
 
 ## Configuration Management
-- All configuration is managed via JSON files in the `config/` directory and can be overridden by environment variables.
-- Use `src/config/config_manager.py` to load, get, and reload config at runtime.
+- All configuration is managed via JSON files in the `familycli/config/` directory and can be overridden by environment variables.
+- Use `familycli/config/config_manager.py` to load, get, and reload config at runtime.
 - Example:
   ```python
-  from src.config.config_manager import ConfigManager
+  from familycli.config.config_manager import ConfigManager
   config = ConfigManager().load('llm_providers')
   value = ConfigManager().get('llm_providers', 'default_provider')
   ConfigManager().reload('llm_providers')
@@ -114,20 +135,21 @@ python -m src.main          # Direct module execution
 ## Project Structure
 ```
 familycli/
-├── src/
+├── familycli/
 │   ├── auth/
 │   ├── personas/
 │   ├── chat/
 │   ├── llm/
 │   ├── database/
 │   ├── ui/
+│   ├── config/
 │   └── main.py
-├── config/
-│   ├── llm_providers.json
-│   ├── app_config.json
-│   └── default_personas.json
+├── examples/
 ├── requirements.txt
 ├── README.md
+├── pyproject.toml
+├── MANIFEST.in
+└── LICENCE
 ```
 
 ## Security
@@ -142,7 +164,7 @@ familycli/
 
 ## Extending
 - Add new LLM providers by implementing a subclass of `BaseLLMProvider`.
-- Add new UI features in `src/ui/`.
+- Add new UI features in `familycli/ui/`.
 
 ## 👨‍💻 Creator
 
