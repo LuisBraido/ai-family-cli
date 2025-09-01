@@ -4,7 +4,7 @@
 
 ## 🚧 Beta Release Notice
 
-**Welcome to Family AI CLI v1.0.0!** 🎉
+**Welcome to Family AI CLI v1.0.1!** 🎉
 
 This is our **initial beta release** and we're thrilled to have you as part of our testing community! Your feedback and contributions are invaluable in making this the best family-friendly AI experience possible.
 
